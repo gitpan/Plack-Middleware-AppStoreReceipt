@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Plack::Middleware::AppStoreReceipt",
   "PREREQ_PM" => {
-    "AnyEvent::HTTP" => 0,
+    "Furl" => 0,
     "JSON" => 0,
     "Plack::Middleware" => 0,
     "Plack::Request" => 0,
@@ -35,7 +35,7 @@ my %WriteMakefileArgs = (
     "Plack::Test" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }

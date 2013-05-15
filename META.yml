@@ -16,7 +16,7 @@ meta-spec:
   version: 1.4
 name: Plack-Middleware-AppStoreReceipt
 requires:
-  AnyEvent::HTTP: 0
+  Furl: 0
   JSON: 0
   Plack::Middleware: 0
   Plack::Request: 0
@@ -25,4 +25,7 @@ requires:
   parent: 0
   strict: 0
   warnings: 0
-version: 0.002
+resources:
+  homepage: https://github.com/zdk/plack-middleware-appstorereceipt
+  repository: https://github.com/zdk/plack-middleware-appstorereceipt.git
+version: 0.003
